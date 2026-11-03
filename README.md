@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <strong>A curated field guide to programming neural networks through their weights.</strong><br>
-  Discover the papers, explore the circuits, and build on open experiments.
+  <strong>Papers, code, and benchmarks for programming neural network weights.</strong><br>
+  Find the key ideas, explore working circuits, and compare open experiments.
 </p>
 
 <p align="center">
@@ -21,6 +21,10 @@
   <a href="#research-library"><strong>Browse the library</strong></a> &nbsp; · &nbsp;
   <a href="README.zh-CN.md">中文导读</a> &nbsp; · &nbsp;
   <a href="https://github.com/brighterr/awesome-weight-space-programming/issues/new/choose">Suggest a resource ↗</a>
+</p>
+
+<p align="center">
+  <sub>⭐ Find this useful? Star the repo to bookmark the collection and help others discover it.</sub>
 </p>
 
 ---
@@ -150,6 +154,8 @@ Selected comparison points for changing behavior through parameter updates; this
 - **[A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)** — Nelson Elhage et al. **2021 research article.** Develops residual-stream, QK, and OV views of transformer computation. Supplies vocabulary for both reading trained circuits and designing explicit ones.
 
 ## About this list
+
+Awesome Weight-Space Programming is an independent, open-source resource list for researchers, engineers, and anyone exploring neural networks as programmable artifacts. Contributions are welcome from the community.
 
 Weight-space programming explores how an agent can inspect, construct, or modify neural network parameters to implement a specified behavior. This collection connects direct LLM-driven experiments to program compilation, learned weight generation, weight-space representations, and targeted model editing.
 

@@ -1,10 +1,19 @@
-<p align="center"><img src="assets/hero.svg" alt="Awesome Weight-Space Programming" width="100%"></p>
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg">
+    <img src="assets/hero.svg" alt="Awesome Weight-Space Programming" width="100%">
+  </picture>
+</p>
 
 # Awesome Weight-Space Programming 中文导读
 
 [English / 完整资源目录](README.md) · [贡献指南](CONTRIBUTING.md)
 
-整理直接读取、构造和修改神经网络权重的论文、实验项目与基础工具。最后整理日期：2026-11-03。
+面向 Weight-Space Programming 的独立开源资源清单：集中发现关键论文、可运行项目与评测基准，从理解概念到动手探索。
+
+⭐ 如果这份清单对你有帮助，欢迎 **Star 收藏**，也欢迎分享给同样关注这个方向的人。
+
+最后整理日期：2026-11-03。
 
 ## 从哪里开始
 
@@ -34,8 +43,10 @@
 - **“零参数”不等于零存储。** 常量可能转移到 buffer 或代码中。
 - **重评已有输出、评测公开 checkpoint、重新执行编辑搜索，是不同层次的复现。** 社区条目按各自范围描述，不把项目自述视为本仓库的独立验证。
 
-## 与 RSI 和 Memory 的关系
+## 一起完善这份清单
 
-这些资源有助于研究可验证的电路构造、模块修复和规则写入。但外部 Agent 改进小网络，并不自动构成递归自我改进；简单算法成功也没有直接验证个人记忆的更新、撤销或用户隔离。相关应用需要单独设计实验。
+- **推荐资源：**通过 [Issue](https://github.com/brighterr/awesome-weight-space-programming/issues/new/choose) 提交值得关注的论文、项目或复现。
+- **补充与纠错：**按照 [贡献指南](CONTRIBUTING.md) 发起 PR，帮助更新链接、分类和实验说明。
+- **收藏与分享：**Star 仓库，或把清单分享给研究者、开发者和学习伙伴。
 
-欢迎提交论文、代码、复现与纠错。完整资源条目维护在英文主目录，避免两份目录长期不一致。
+完整资源条目维护在英文主目录，中文导读提供阅读路线与背景说明。
