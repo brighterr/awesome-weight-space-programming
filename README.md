@@ -1,20 +1,70 @@
-# Awesome Weight-Space Programming [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg">
+    <img src="assets/hero.svg" alt="Awesome Weight-Space Programming — neural weights, readable and writable" width="100%">
+  </picture>
+</p>
 
-> A curated reading list on treating neural network weights as readable, writable programs.
+<p align="center">
+  <strong>A curated field guide to programming neural networks through their weights.</strong><br>
+  Discover the papers, explore the circuits, and build on open experiments.
+</p>
 
-**Read weights · Write circuits · Edit behavior · Verify mechanisms**
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0_1.0-5ad9bf?style=flat-square&amp;labelColor=17263c" alt="License: CC0 1.0"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-8da9ed?style=flat-square&amp;labelColor=17263c" alt="Contributions welcome"></a>
+</p>
 
-[中文导读](README.zh-CN.md) · [Contributing](CONTRIBUTING.md) · [Suggest a resource](https://github.com/brighterr/awesome-weight-space-programming/issues/new/choose)
+<p align="center">
+  <a href="#start-here"><strong>Start here</strong></a> &nbsp; · &nbsp;
+  <a href="#research-library"><strong>Browse the library</strong></a> &nbsp; · &nbsp;
+  <a href="README.zh-CN.md">中文导读</a> &nbsp; · &nbsp;
+  <a href="https://github.com/brighterr/awesome-weight-space-programming/issues/new/choose">Suggest a resource ↗</a>
+</p>
 
-Weight-space programming explores how an agent can inspect, construct, or modify neural network parameters to implement a specified behavior. This list starts with direct LLM-driven experiments, then connects them to program-to-transformer compilation, learned weight generation, weight-space representations, and targeted model editing.
+---
 
-**Scope:** direct weight reasoning and construction are the focus. Related papers are explicitly labeled as foundations; they need not use the term “weight-space programming.” General fine-tuning, prompt optimization, and architecture search without weight construction are outside the main scope.
+## Start here
 
-**Last curated: November 3, 2026.** An initial, selective collection—not an exhaustive survey. Inclusion means the resource is useful to inspect, not that its results have been independently reproduced here. The two starting reports below are **blog posts**, not verified peer-reviewed publications.
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 / DISCOVER</sub>
+<h3><a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight-Space Programming ↗</a></h3>
+<p>Read, repair, and construct networks by reasoning about their weights.</p>
+<sub>AUTHOR REPORT · EXPERIMENT LOGS</sub>
+</td>
+<td width="50%" valign="top">
+<sub>02 / UNDERSTAND</sub>
+<h3><a href="https://csinva.io/weight-space-programming-autoresearch/analyze/toy_examples/report.html">From scratch on simple tasks ↗</a></h3>
+<p>See how arithmetic, sorting, and parity become explicit neural circuits.</p>
+<sub>INTERACTIVE GUIDE · CODE SNAPSHOTS</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / BUILD</sub>
+<h3><a href="https://github.com/google-deepmind/tracr">Compile with Tracr ↗</a></h3>
+<p>Turn readable programs into transformer weights with known mechanisms.</p>
+<sub>RESEARCH PAPER · OPEN-SOURCE COMPILER</sub>
+</td>
+<td width="50%" valign="top">
+<sub>04 / EXPLORE</sub>
+<h3><a href="#community-experiments-and-benchmarks">Experiments &amp; benchmarks →</a></h3>
+<p>Compare replications, weight-reading tests, and evaluation tools.</p>
+<sub>COMMUNITY PROJECTS · REPRODUCTION</sub>
+</td>
+</tr>
+</table>
 
-## Contents
+## Research library
 
-- [Start here](#start-here)
+**[Direct work](#direct-weight-space-programming)** · **[Community projects](#community-experiments-and-benchmarks)** · **[Compilers](#programs-to-transformer-weights)** · **[Weight generation](#learned-weight-generation)** · **[Weight-space models](#networks-that-process-weights)** · **[Model editing](#related-model-editing)**
+
+<details>
+<summary><strong>Full directory &amp; reading notes</strong></summary>
+
 - [Direct weight-space programming](#direct-weight-space-programming)
 - [Community experiments and benchmarks](#community-experiments-and-benchmarks)
 - [Programs to transformer weights](#programs-to-transformer-weights)
@@ -22,25 +72,13 @@ Weight-space programming explores how an agent can inspect, construct, or modify
 - [Networks that process weights](#networks-that-process-weights)
 - [Related model editing](#related-model-editing)
 - [Mechanistic foundations](#mechanistic-foundations)
+- [About this list and research routes](#about-this-list)
 - [Reproduction checklist](#reproduction-checklist)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
-## Start here
-
-1. **See the idea:** [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) introduces reading, repairing, and constructing networks through direct weight reasoning.
-2. **Understand a small circuit:** [Weight-Space Programming from scratch on simple tasks](https://csinva.io/weight-space-programming-autoresearch/analyze/toy_examples/report.html) explains hand-constructed arithmetic and routing circuits, including an interactive parity example.
-3. **Compare with a compiler:** [Tracr](https://github.com/google-deepmind/tracr) turns human-readable programs into transformer weights with known mechanisms.
-4. **Inspect evidence:** explore the [original experiment logs](https://github.com/RikiyaT/lm_understand-logs), then compare the [community experiments](#community-experiments-and-benchmarks) under their own access conditions.
-
-| Research route | How weights are produced or used | Why it matters |
-| --- | --- | --- |
-| Direct LLM programming | An LLM reasons about tensors or writes code that assigns them. | The central topic of this list. |
-| Program compilation | A compiler maps a formal program to a network. | Provides explicit mechanisms and useful correctness baselines. |
-| Learned weight generation | A trained hypernetwork predicts another network's parameters. | A distinct route to generating weights. |
-| Weight-space modeling | A model reads or transforms another model's parameters. | Addresses symmetries and representations of networks. |
-| Targeted editing | An algorithm updates selected weights or combines task vectors. | Offers comparison points for behavior modification. |
+</details>
 
 ## Direct weight-space programming
 
@@ -111,6 +149,24 @@ Selected comparison points for changing behavior through parameter updates; this
 
 - **[A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)** — Nelson Elhage et al. **2021 research article.** Develops residual-stream, QK, and OV views of transformer computation. Supplies vocabulary for both reading trained circuits and designing explicit ones.
 
+## About this list
+
+Weight-space programming explores how an agent can inspect, construct, or modify neural network parameters to implement a specified behavior. This collection connects direct LLM-driven experiments to program compilation, learned weight generation, weight-space representations, and targeted model editing.
+
+**Scope.** Direct weight reasoning and construction are the focus. Related papers are labeled as foundations; they need not use the term “weight-space programming.” General fine-tuning, prompt optimization, and architecture search without weight construction are outside the main scope.
+
+**Curation.** Last curated November 3, 2026. This is a selective collection, not an exhaustive survey. Inclusion means a resource is useful to inspect; it does not mean its results have been independently reproduced here. The two originating reports are blog posts, not verified peer-reviewed publications.
+
+### Research routes
+
+| Research route | How weights are produced or used | Why it matters |
+| --- | --- | --- |
+| Direct LLM programming | An LLM reasons about tensors or writes code that assigns them. | The central topic of this list. |
+| Program compilation | A compiler maps a formal program to a network. | Provides explicit mechanisms and useful correctness baselines. |
+| Learned weight generation | A trained hypernetwork predicts another network's parameters. | A distinct route to generating weights. |
+| Weight-space modeling | A model reads or transforms another model's parameters. | Addresses symmetries and representations of networks. |
+| Targeted editing | An algorithm updates selected weights or combines task vectors. | Offers comparison points for behavior modification. |
+
 ## Reproduction checklist
 
 When comparing results or proposing a new entry, make the experimental contract visible:
@@ -132,7 +188,7 @@ Prefer primary sources and a short explanation of why the item belongs. Keep dir
 
 ## Acknowledgments
 
-List structure follows the curation principles of the [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), with organizational inspiration from [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) and [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents). All research and software credit belongs to the linked authors and maintainers. The Awesome badge does not imply inclusion in the central Awesome index.
+List structure follows the curation principles of the [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), with organizational inspiration from [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) and [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents). The visual introduction also draws on the banner-first layouts of [Dify](https://github.com/langgenius/dify) and [n8n](https://github.com/n8n-io/n8n), and the reading hierarchy of [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM). The cover artwork is original to this list. All research and software credit belongs to the linked authors and maintainers. The Awesome badge does not imply inclusion in the central Awesome index.
 
 ## License
 

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">Awesome Weight-Space Programming</title><desc id="desc">A curated field guide to reading, writing, and editing neural network weights. An illuminated matrix connects weights to programs.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#0a1324"/></linearGradient><radialGradient id="glow"><stop stop-color="#23cbb5" stop-opacity=".16"/><stop offset="1" stop-color="#23cbb5" stop-opacity="0"/></radialGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b1c8dd" stroke-opacity=".04"/></pattern></defs>
+<rect width="1280" height="420" rx="20" fill="url(#bg)"/><rect width="1280" height="420" rx="20" fill="url(#grid)"/>
+<ellipse cx="1130" cy="200" rx="350" ry="270" fill="url(#glow)"/>
+
+<rect x="64" y="46" width="26" height="4" rx="2" fill="#62ead1"/><text x="104" y="54" fill="#8ca4bc" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="3">THE AWESOME COLLECTION</text>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="66" letter-spacing="-2"><text x="64" y="148" fill="#f0f6ff">Weight-Space</text><text x="64" y="218" fill="#69ead3">Programming</text></g>
+<text x="64" y="269" fill="#a6bad0" font-family="Arial,Helvetica,sans-serif" font-size="21">Neural weights. Readable. Writable.</text>
+<path d="M64 308H660" stroke="#2a3d51"/><text x="64" y="346" fill="#c1d0df" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">READ <tspan fill="#4e6c81"> / </tspan> WRITE <tspan fill="#4e6c81"> / </tspan> EDIT <tspan fill="#4e6c81"> / </tspan> VERIFY</text>
+<g transform="translate(825 75)"><text x="0" y="-10" fill="#7597ad" font-family="monospace" font-size="12" letter-spacing="2">WEIGHTS → PROGRAMS</text>
+<rect x="0" y="12" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="35" y="12" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="70" y="12" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="105" y="12" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="140" y="12" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="175" y="12" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="210" y="12" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="245" y="12" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="0" y="47" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="35" y="47" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="70" y="47" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="105" y="47" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="140" y="47" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="175" y="47" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="210" y="47" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="245" y="47" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="0" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="35" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="70" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="105" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="140" y="82" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="175" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="210" y="82" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="245" y="82" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="0" y="117" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="35" y="117" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="70" y="117" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="105" y="117" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="140" y="117" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="175" y="117" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="210" y="117" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="245" y="117" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="0" y="152" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="35" y="152" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="70" y="152" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="105" y="152" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="140" y="152" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="175" y="152" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="210" y="152" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="245" y="152" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="0" y="187" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="35" y="187" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="70" y="187" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="105" y="187" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="140" y="187" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="175" y="187" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="210" y="187" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="245" y="187" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="0" y="222" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="35" y="222" width="26" height="26" rx="5" fill="#62ead1" opacity=".95"/>
+<rect x="70" y="222" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="105" y="222" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="140" y="222" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="175" y="222" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<rect x="210" y="222" width="26" height="26" rx="5" fill="#4662a2" opacity=".65"/>
+<rect x="245" y="222" width="26" height="26" rx="5" fill="#20344a" opacity=".65"/>
+<path d="M-15 8H-22V259H-15M286 8H293V259H286" fill="none" stroke="#587287" stroke-width="2"/><text x="0" y="295" fill="#7897af" font-family="monospace" font-size="13">θ → f(x) → behavior</text></g>
+</svg>

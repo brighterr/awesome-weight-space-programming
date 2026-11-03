@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/hero.svg" alt="Awesome Weight-Space Programming" width="100%"></p>
+
 # Awesome Weight-Space Programming 中文导读
 
 [English / 完整资源目录](README.md) · [贡献指南](CONTRIBUTING.md)

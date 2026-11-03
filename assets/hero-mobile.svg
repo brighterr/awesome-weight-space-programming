@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+<title id="title">Awesome Weight-Space Programming</title><desc id="desc">A curated field guide to reading, writing, and editing neural network weights. An illuminated matrix connects weights to programs.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#0a1324"/></linearGradient><radialGradient id="glow"><stop stop-color="#23cbb5" stop-opacity=".16"/><stop offset="1" stop-color="#23cbb5" stop-opacity="0"/></radialGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b1c8dd" stroke-opacity=".04"/></pattern></defs>
+<rect width="640" height="440" rx="20" fill="url(#bg)"/><rect width="640" height="440" rx="20" fill="url(#grid)"/>
+<ellipse cx="490" cy="200" rx="350" ry="270" fill="url(#glow)"/>
+
+<rect x="38" y="46" width="26" height="4" rx="2" fill="#62ead1"/><text x="78" y="54" fill="#8ca4bc" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="3">THE AWESOME COLLECTION</text>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="56" letter-spacing="-2"><text x="38" y="148" fill="#f0f6ff">Weight-Space</text><text x="38" y="218" fill="#69ead3">Programming</text></g>
+<text x="38" y="269" fill="#a6bad0" font-family="Arial,Helvetica,sans-serif" font-size="18">Neural weights. Readable. Writable.</text>
+<path d="M38 308H602" stroke="#2a3d51"/><text x="38" y="346" fill="#c1d0df" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">READ <tspan fill="#4e6c81"> / </tspan> WRITE <tspan fill="#4e6c81"> / </tspan> EDIT <tspan fill="#4e6c81"> / </tspan> VERIFY</text>
+<text x="38" y="400" fill="#63839c" font-family="monospace" font-size="13">PAPERS + PROJECTS + EXPERIMENTS</text>
+</svg>
