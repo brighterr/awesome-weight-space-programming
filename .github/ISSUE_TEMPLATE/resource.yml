@@ -1,0 +1,37 @@
+name: Suggest a resource
+description: Propose a paper, project, benchmark, or reproduction.
+title: "[Resource] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Direct weight-space programming
+        - Community experiment or benchmark
+        - Programs to transformer weights
+        - Learned weight generation
+        - Networks that process weights
+        - Related model editing
+        - Mechanistic foundations
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why include it?
+      description: Explain the contribution, publication status, code availability, and relevant limitations. Disclose any affiliation.
+    validations:
+      required: true
