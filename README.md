@@ -199,3 +199,5 @@ List structure follows the curation principles of the [Awesome manifesto](https:
 ## License
 
 This list's original text is dedicated to the public domain under [CC0 1.0](LICENSE). Linked papers, code, models, and datasets retain their respective licenses.
+
+<sub>Also known as Awesome-WSP / awesome-wsp.</sub>
