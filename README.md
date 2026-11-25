@@ -193,6 +193,10 @@ New papers, working projects, replications, and corrections are welcome. Please 
 
 Prefer primary sources and a short explanation of why the item belongs. Keep direct work separate from related foundations, and label experimental status accurately.
 
+## Related lists
+
+- [Awesome Weight Editing](https://github.com/vicfei/awesome-weight-editing) — the umbrella view: five families of weight modification (knowledge editing, steering & abliteration, task arithmetic & merging, unlearning, WSP), bilingual (EN/中文), with a daily arXiv radar and a transactional toolkit ([modifyllm](https://github.com/vicfei/modifyllm)).
+
 ## Acknowledgments
 
 List structure follows the curation principles of the [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), with organizational inspiration from [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) and [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents). The visual introduction also draws on the banner-first layouts of [Dify](https://github.com/langgenius/dify) and [n8n](https://github.com/n8n-io/n8n), and the reading hierarchy of [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM). The cover artwork is original to this list. All research and software credit belongs to the linked authors and maintainers. The Awesome badge does not imply inclusion in the central Awesome index.
